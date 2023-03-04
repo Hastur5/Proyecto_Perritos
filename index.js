@@ -1,4 +1,5 @@
 import express from 'express'
+import perroRoutes from './src/routes/perro.routes.js'
 
 async function main(){
     // try {
