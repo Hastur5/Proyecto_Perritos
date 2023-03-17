@@ -1,12 +1,12 @@
 import { Sequelize } from 'sequelize'
 
 export const sequelize = new Sequelize(
-  'railway', // Nombre de la base.
+  'perros', // Nombre de la base.
   'postgres', // Nombre de usuario.
-  'ZuoReBtE1Cg5f2XZipQi', // Password.
+  'chapito12', // Password.
   {
-    host: '', // Servidor.
-    port: '7685', // Puerto.
+    host: 'localhost', // Servidor.
+    port: '5432', // Puerto.
     dialect: 'postgres' // Dialecto. Aquí se puede usar cualquier tipo de base de datos. Sequelize se encarga de todo el rollo.
   }
 )
